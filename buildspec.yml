@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - mvn install
+      - mvn installee
 artifacts:
   files:
     - target/myweb-0.7.0.war
